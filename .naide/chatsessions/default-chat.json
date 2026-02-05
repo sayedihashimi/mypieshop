@@ -1,0 +1,20 @@
+{
+  "id": "default-chat",
+  "projectName": "MyPieShop",
+  "messages": [
+    {
+      "id": "welcome-planning-1",
+      "role": "assistant",
+      "content": "I'm in Planning Mode. I'll help you create and update spec files without touching your code.",
+      "timestamp": "2026-02-05T03:30:17.490Z"
+    },
+    {
+      "id": "welcome-planning-2",
+      "role": "assistant",
+      "content": "What would you like to plan or refine in your specifications?",
+      "timestamp": "2026-02-05T03:30:17.490Z"
+    }
+  ],
+  "createdAt": "2026-02-05T03:30:18.029Z",
+  "updatedAt": "2026-02-05T03:30:18.029Z"
+}

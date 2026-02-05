@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Sunshine & Joy. Lemon Meringue",
+    "price": "$46.00",
+    "imageFilename": "sunshine-lemon-cloud.jpeg"
+  },
+  {
+    "name": "Midnight Chocolate Bottom",
+    "price": "$46.00",
+    "imageFilename": "chocolate-lime-twist.png"
+  },
+  {
+    "name": "Midnight Chocolate Bottom Gluten Free",
+    "price": "$48.00",
+    "imageFilename": "chocolate-lime-twist-gf.jpeg"
+  },
+  {
+    "name": "The Grand Tasting Flight",
+    "price": "$44.00",
+    "imageFilename": "grand-tasting-sampler.jpg"
+  },
+  {
+    "name": "Sweet Escape Pie Flight",
+    "price": "$26.00",
+    "imageFilename": "sampler-trio-collection.jpg"
+  },
+  {
+    "name": "Caramel Crackle Custard",
+    "price": "$40.00",
+    "imageFilename": "caramelized-custard-delight.jpeg"
+  },
+  {
+    "name": "Heritage Buttermilk Pie",
+    "price": "$42.00",
+    "imageFilename": "southern-buttermilk-classic.jpg"
+  },
+  {
+    "name": "Citrus Grove Key Lime Pie",
+    "price": "$46.00",
+    "imageFilename": "tangy-citrus-dream.jpg"
+  },
+  {
+    "name": "Garden Goat Cheese Quiche",
+    "price": "$44.00",
+    "imageFilename": "goat-cheese-veggie-tart.jpeg"
+  },
+  {
+    "name": "Autumn Maple Pecan",
+    "price": "$44.00",
+    "imageFilename": "maple-pecan-bliss.jpeg"
+  },
+  {
+    "name": "Comfort Kitchen Pot Pie",
+    "price": "$46.00",
+    "imageFilename": "hearty-comfort-classic.jpg"
+  },
+  {
+    "name": "Molten Midnight Chocolate Pie",
+    "price": "$42.00",
+    "imageFilename": "molten-chocolate-heaven.jpg"
+  },
+  {
+    "name": "Cookie Crumble Dream Pie",
+    "price": "from $42.00",
+    "imageFilename": "cookie-crumble-fantasy.jpeg"
+  },
+  {
+    "name": "Morning Harvest Quiche",
+    "price": "$44.00",
+    "imageFilename": "garden-vegetable-quiche.jpg"
+  },
+  {
+    "name": "Nutty Butter Bliss",
+    "price": "from $44.00",
+    "imageFilename": "nutty-chocolate-indulgence.jpg"
+  },
+  {
+    "name": "Tropical Breeze Coconut Cream Pie",
+    "price": "$44.00",
+    "imageFilename": "tropical-coconut-paradise.jpg"
+  }
+]
