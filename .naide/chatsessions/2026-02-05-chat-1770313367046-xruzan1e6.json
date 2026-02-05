@@ -1,0 +1,23 @@
+{
+  "id": "2026-02-05-chat-1770313367046-xruzan1e6",
+  "projectName": "MyPieShop",
+  "mode": "Planning",
+  "messages": [
+    {
+      "id": "user-1770311580965-dnsto4qa1",
+      "role": "user",
+      "content": "Create a new bug fix file. When I run an npm app, when I click the Stop button the log file shows that the app is stopped but the UI remains and I can still interact with the web app. When I click close again the in-app browser shows the not running state. I think we are not properly stopping the entire node/npm processes. It looks like the processes are still running after I close Naide.",
+      "timestamp": "2026-02-05T17:13:00.965Z"
+    },
+    {
+      "id": "assistant-1770311580965-7lr8t31bh",
+      "role": "assistant",
+      "content": "",
+      "timestamp": "2026-02-05T17:13:00.965Z"
+    }
+  ],
+  "summary": null,
+  "createdAt": "2026-02-05T17:12:28.313Z",
+  "updatedAt": "2026-02-05T17:42:47.053Z",
+  "savedAt": "2026-02-05T17:42:47.053Z"
+}
