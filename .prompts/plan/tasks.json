@@ -251,24 +251,24 @@
     {
       "phase": 7,
       "name": "About Page",
-      "status": "pending",
+      "status": "completed",
       "tasks": [
         {
           "id": "7.1",
           "description": "Create About page component",
-          "status": "pending",
+          "status": "completed",
           "dependencies": ["2.4"]
         },
         {
           "id": "7.2",
           "description": "Write compelling fictitious content about Southside Pie Shop",
-          "status": "pending",
+          "status": "completed",
           "dependencies": ["7.1"]
         },
         {
           "id": "7.3",
           "description": "Include location (Shartlesville, PA) and shop story",
-          "status": "pending",
+          "status": "completed",
           "dependencies": ["7.2"]
         }
       ]
