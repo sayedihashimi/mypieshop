@@ -1,0 +1,393 @@
+{
+  "project": "Southside Pie Shop Website",
+  "status": "planned",
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Project Setup & Configuration",
+      "status": "pending",
+      "tasks": [
+        {
+          "id": "1.1",
+          "description": "Initialize Vite + React project",
+          "status": "pending",
+          "dependencies": []
+        },
+        {
+          "id": "1.2",
+          "description": "Install and configure Tailwind CSS",
+          "status": "pending",
+          "dependencies": ["1.1"]
+        },
+        {
+          "id": "1.3",
+          "description": "Install React Router",
+          "status": "pending",
+          "dependencies": ["1.1"]
+        },
+        {
+          "id": "1.4",
+          "description": "Set up project folder structure",
+          "status": "pending",
+          "dependencies": ["1.1"]
+        },
+        {
+          "id": "1.5",
+          "description": "Move pies.json to src/frontend/data/ and images to src/frontend/assets/images/pies/",
+          "status": "pending",
+          "dependencies": ["1.4"]
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "name": "Layout & Navigation",
+      "status": "pending",
+      "tasks": [
+        {
+          "id": "2.1",
+          "description": "Create Header component with navigation and specified text",
+          "status": "pending",
+          "dependencies": ["1.4"]
+        },
+        {
+          "id": "2.2",
+          "description": "Create Footer component with copyright text",
+          "status": "pending",
+          "dependencies": ["1.4"]
+        },
+        {
+          "id": "2.3",
+          "description": "Create Layout component wrapper",
+          "status": "pending",
+          "dependencies": ["2.1", "2.2"]
+        },
+        {
+          "id": "2.4",
+          "description": "Set up React Router with routes (/, /about, /cart, /checkout)",
+          "status": "pending",
+          "dependencies": ["1.3", "2.3"]
+        },
+        {
+          "id": "2.5",
+          "description": "Add cart icon with item count badge to header",
+          "status": "pending",
+          "dependencies": ["2.1"]
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "Shopping Cart Context & Persistence",
+      "status": "pending",
+      "tasks": [
+        {
+          "id": "3.1",
+          "description": "Create CartContext with state and actions",
+          "status": "pending",
+          "dependencies": ["1.4"]
+        },
+        {
+          "id": "3.2",
+          "description": "Implement localStorage helper functions (cartStorage.js)",
+          "status": "pending",
+          "dependencies": ["1.4"]
+        },
+        {
+          "id": "3.3",
+          "description": "Integrate localStorage with CartContext (save/load)",
+          "status": "pending",
+          "dependencies": ["3.1", "3.2"]
+        },
+        {
+          "id": "3.4",
+          "description": "Wrap App with CartProvider",
+          "status": "pending",
+          "dependencies": ["3.1"]
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "name": "Home Page - Browse Pies",
+      "status": "pending",
+      "tasks": [
+        {
+          "id": "4.1",
+          "description": "Create Home page component",
+          "status": "pending",
+          "dependencies": ["2.4"]
+        },
+        {
+          "id": "4.2",
+          "description": "Create PieCard component (image, name, price, add to cart button)",
+          "status": "pending",
+          "dependencies": ["1.4"]
+        },
+        {
+          "id": "4.3",
+          "description": "Create PieGrid component to display all pies",
+          "status": "pending",
+          "dependencies": ["4.2"]
+        },
+        {
+          "id": "4.4",
+          "description": "Load and display pie data from pies.json",
+          "status": "pending",
+          "dependencies": ["1.5", "4.3"]
+        },
+        {
+          "id": "4.5",
+          "description": "Implement 'Add to Cart' functionality with visual feedback",
+          "status": "pending",
+          "dependencies": ["3.4", "4.2"]
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "name": "Shopping Cart Page",
+      "status": "pending",
+      "tasks": [
+        {
+          "id": "5.1",
+          "description": "Create Cart page component",
+          "status": "pending",
+          "dependencies": ["2.4"]
+        },
+        {
+          "id": "5.2",
+          "description": "Create CartItem component (display item with quantity controls)",
+          "status": "pending",
+          "dependencies": ["1.4"]
+        },
+        {
+          "id": "5.3",
+          "description": "Create CartSummary component (total calculation and display)",
+          "status": "pending",
+          "dependencies": ["1.4"]
+        },
+        {
+          "id": "5.4",
+          "description": "Implement quantity adjustment (increase/decrease)",
+          "status": "pending",
+          "dependencies": ["3.4", "5.2"]
+        },
+        {
+          "id": "5.5",
+          "description": "Implement remove item functionality",
+          "status": "pending",
+          "dependencies": ["3.4", "5.2"]
+        },
+        {
+          "id": "5.6",
+          "description": "Add empty cart state with message",
+          "status": "pending",
+          "dependencies": ["5.1"]
+        },
+        {
+          "id": "5.7",
+          "description": "Add 'Proceed to Checkout' button",
+          "status": "pending",
+          "dependencies": ["5.1"]
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "name": "Checkout Flow",
+      "status": "pending",
+      "tasks": [
+        {
+          "id": "6.1",
+          "description": "Create Checkout page component",
+          "status": "pending",
+          "dependencies": ["2.4"]
+        },
+        {
+          "id": "6.2",
+          "description": "Create CheckoutForm component with all required fields",
+          "status": "pending",
+          "dependencies": ["1.4"]
+        },
+        {
+          "id": "6.3",
+          "description": "Implement form validation (all fields required)",
+          "status": "pending",
+          "dependencies": ["6.2"]
+        },
+        {
+          "id": "6.4",
+          "description": "Display validation error messages",
+          "status": "pending",
+          "dependencies": ["6.3"]
+        },
+        {
+          "id": "6.5",
+          "description": "Create OrderConfirmation component",
+          "status": "pending",
+          "dependencies": ["1.4"]
+        },
+        {
+          "id": "6.6",
+          "description": "Generate confirmation number on successful submission",
+          "status": "pending",
+          "dependencies": ["6.5"]
+        },
+        {
+          "id": "6.7",
+          "description": "Display order summary on confirmation",
+          "status": "pending",
+          "dependencies": ["6.5"]
+        },
+        {
+          "id": "6.8",
+          "description": "Clear cart after successful order",
+          "status": "pending",
+          "dependencies": ["3.4", "6.6"]
+        }
+      ]
+    },
+    {
+      "phase": 7,
+      "name": "About Page",
+      "status": "pending",
+      "tasks": [
+        {
+          "id": "7.1",
+          "description": "Create About page component",
+          "status": "pending",
+          "dependencies": ["2.4"]
+        },
+        {
+          "id": "7.2",
+          "description": "Write compelling fictitious content about Southside Pie Shop",
+          "status": "pending",
+          "dependencies": ["7.1"]
+        },
+        {
+          "id": "7.3",
+          "description": "Include location (Shartlesville, PA) and shop story",
+          "status": "pending",
+          "dependencies": ["7.2"]
+        }
+      ]
+    },
+    {
+      "phase": 8,
+      "name": "Styling & Responsive Design",
+      "status": "pending",
+      "tasks": [
+        {
+          "id": "8.1",
+          "description": "Configure Tailwind with rustic color palette",
+          "status": "pending",
+          "dependencies": ["1.2"]
+        },
+        {
+          "id": "8.2",
+          "description": "Style Header and Footer with rustic theme",
+          "status": "pending",
+          "dependencies": ["2.1", "2.2", "8.1"]
+        },
+        {
+          "id": "8.3",
+          "description": "Style Home page and PieCard with homey aesthetic",
+          "status": "pending",
+          "dependencies": ["4.1", "4.2", "8.1"]
+        },
+        {
+          "id": "8.4",
+          "description": "Style Cart page and components",
+          "status": "pending",
+          "dependencies": ["5.1", "8.1"]
+        },
+        {
+          "id": "8.5",
+          "description": "Style Checkout page and form",
+          "status": "pending",
+          "dependencies": ["6.1", "8.1"]
+        },
+        {
+          "id": "8.6",
+          "description": "Style About page",
+          "status": "pending",
+          "dependencies": ["7.1", "8.1"]
+        },
+        {
+          "id": "8.7",
+          "description": "Implement responsive design for mobile",
+          "status": "pending",
+          "dependencies": ["8.2", "8.3", "8.4", "8.5", "8.6"]
+        },
+        {
+          "id": "8.8",
+          "description": "Add hover states and transitions",
+          "status": "pending",
+          "dependencies": ["8.7"]
+        }
+      ]
+    },
+    {
+      "phase": 9,
+      "name": "Testing, Polish & Documentation",
+      "status": "pending",
+      "tasks": [
+        {
+          "id": "9.1",
+          "description": "Test complete user flow (browse → cart → checkout → confirmation)",
+          "status": "pending",
+          "dependencies": ["8.8"]
+        },
+        {
+          "id": "9.2",
+          "description": "Test cart persistence (close/reopen browser)",
+          "status": "pending",
+          "dependencies": ["3.3"]
+        },
+        {
+          "id": "9.3",
+          "description": "Test responsive design on multiple devices",
+          "status": "pending",
+          "dependencies": ["8.7"]
+        },
+        {
+          "id": "9.4",
+          "description": "Test form validation",
+          "status": "pending",
+          "dependencies": ["6.3"]
+        },
+        {
+          "id": "9.5",
+          "description": "Verify all images load correctly",
+          "status": "pending",
+          "dependencies": ["4.4"]
+        },
+        {
+          "id": "9.6",
+          "description": "Add accessibility features (alt text, ARIA labels, keyboard nav)",
+          "status": "pending",
+          "dependencies": ["8.8"]
+        },
+        {
+          "id": "9.7",
+          "description": "Write README.md with setup and run instructions",
+          "status": "pending",
+          "dependencies": []
+        },
+        {
+          "id": "9.8",
+          "description": "Final code cleanup and optimization",
+          "status": "pending",
+          "dependencies": ["9.1", "9.2", "9.3", "9.4", "9.5", "9.6"]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "This is a demo application with no real payment processing",
+    "All content about Southside Pie Shop is fictitious",
+    "Cart data persists in localStorage only",
+    "Focus on user experience and visual appeal"
+  ]
+}
