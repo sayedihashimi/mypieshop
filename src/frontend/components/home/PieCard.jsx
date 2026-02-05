@@ -7,7 +7,7 @@ function PieCard({ pie, index }) {
 
   const handleAddToCart = () => {
     addToCart({
-      pieId: index.toString(),
+      id: index.toString(),
       name: pie.name,
       price: pie.price,
       imageFilename: pie.imageFilename,
