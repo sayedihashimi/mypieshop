@@ -142,11 +142,11 @@ A complete React-based e-commerce website for Southside Pie Shop, a traditional 
 ## Design Guidelines
 
 ### Visual Style
-- **Theme:** Rustic, homey, traditional pie shop feel
-- **Color Palette:** Warm, earthy tones (browns, creams, muted reds)
-- **Typography:** Readable, friendly fonts that evoke comfort
+- **Theme:** Modern and clean
+- **Color Palette:** Fresh, contemporary colors (whites, light grays, accent colors like teal or coral)
+- **Typography:** Clean, modern sans-serif fonts
 - **Images:** High-quality pie photos (existing images in `src/images/`)
-- **Layout:** Clean, uncluttered, easy navigation
+- **Layout:** Minimal, spacious, easy navigation
 - **Responsive:** Mobile-friendly design
 
 ### User Experience

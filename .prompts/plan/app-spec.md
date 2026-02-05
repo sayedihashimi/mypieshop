@@ -148,11 +148,11 @@ southside-pie-shop/
 ## Styling Approach
 
 ### Tailwind Configuration
-- **Color Palette:** Warm, rustic colors
-  - Primary: Muted reds/browns
-  - Secondary: Creams/beiges
-  - Accent: Darker browns
-- **Typography:** Comfortable, readable fonts
+- **Color Palette:** Modern, clean colors
+  - Primary: Teal or similar contemporary accent
+  - Secondary: Whites and light grays
+  - Accent: Coral or complementary pop color
+- **Typography:** Clean, modern sans-serif fonts
 - **Responsive Breakpoints:** Default Tailwind breakpoints
 
 ### Design Tokens

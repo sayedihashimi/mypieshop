@@ -54,10 +54,10 @@
 ## Design Constraints
 
 ### Visual Style
-- **Mandatory:** Rustic, homey, traditional pie shop aesthetic
-- **Color Scheme:** Warm, earthy tones (browns, creams, muted reds)
-- **Typography:** Friendly, readable fonts
-- **Avoid:** Modern/sleek/minimalist designs, bright neon colors, overly corporate feel
+- **Mandatory:** Modern and clean aesthetic
+- **Color Scheme:** Fresh, contemporary colors (whites, light grays, accent colors like teal or coral)
+- **Typography:** Clean, modern sans-serif fonts
+- **Avoid:** Overly rustic/vintage designs, bright neon colors, overly corporate feel
 
 ### Layout Requirements
 - **Header Text:** "FRESH PIES + PIE CLASSES — LIMITED AVAILABILITY →" (exact)

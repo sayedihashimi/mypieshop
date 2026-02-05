@@ -1,10 +1,26 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { CartProvider } from './context/CartContext';
+import Layout from './components/layout/Layout';
+import Home from './pages/Home';
+import About from './pages/About';
+import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
+
 function App() {
   return (
-    <div className="min-h-screen bg-cream">
-      <h1 className="text-4xl font-bold text-rustic-brown p-8">Southside Pie Shop</h1>
-      <p className="text-lg text-gray-700 px-8">Welcome to our pie shop!</p>
-    </div>
-  )
+    <BrowserRouter>
+      <CartProvider>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="cart" element={<Cart />} />
+            <Route path="checkout" element={<Checkout />} />
+          </Route>
+        </Routes>
+      </CartProvider>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
